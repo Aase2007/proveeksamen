@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "ivymode", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#søk {
+    width: 50vw;
+    font-size: 16pt;
+}
