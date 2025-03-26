@@ -33,7 +33,7 @@ body {
 }
 
 #varer {
-    width: 100vw;
+    width: 70vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -44,13 +44,40 @@ body {
     border-width: 4px;
     border-color: #861F4F;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
 }
 
 .varebilde {
-    width: 15vw;
+    width: 16vw;
 }
 .varetittel {
     width: 15vw;
     max-height: 5vh;
     overflow-y: hidden;
+}
+
+#vareside {
+    display: none;
+    position: absolute;
+    width: 70vw;
+    height: 70vh;
+    border-style: double;
+    border-color:#B4AAB5;
+    background-color: #FDFDFE;
+    top: 15vh;
+    left: 15vw;
+    padding: 10px;
+
+}
+#vareitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70vh;
+}
+#varebilde {
+    width: 40vw;
 }
