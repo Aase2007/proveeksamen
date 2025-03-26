@@ -1,13 +1,56 @@
 body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    margin: 0;
     font-family: "ivymode", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #FDFDFE;
+}
+
+#topper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #F53F52;
+    margin-bottom: 5px;
+    box-shadow: 0px 5px 5px #B4AAB5;
+}
+
+#overskrift {
+    width:fit-content;
+
+}
+
+#main {
+    width: 100v;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #søk {
-    width: 50vw;
+    width: 30vw;
     font-size: 16pt;
+}
+
+#varer {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.vareboks {
+    border-style: double;
+    border-width: 4px;
+    border-color: #861F4F;
+    padding: 16px;
+}
+
+.varebilde {
+    width: 15vw;
+}
+.varetittel {
+    width: 15vw;
+    max-height: 5vh;
+    overflow-y: hidden;
 }
